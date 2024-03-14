@@ -1,0 +1,81 @@
+/* Comentarios en CSS*/
+
+/*selector de etiqueta */
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    background-color: rgb(244, 250, 230);
+    font-size: 11px;
+}
+
+/*Selector de clase*/
+
+.academico{
+    margin-left: 40px;
+}
+
+.nombre{
+    background-color: rgba(251,141,212,255);
+    padding: 10px;
+    width: 250px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 380px;
+    margin-top: -150px;
+    margin-bottom: 120px
+}
+
+#carrera{
+    font-style: oblique;
+    font-size:20px;
+    font-weight:bold;
+    margin-left: 380px;
+    margin-top: -70px;
+    margin-bottom: 60px
+}
+
+.profile-description{
+    text-align: justify;
+    font-style: italic;
+    color: rgb(46, 46, 46);
+    font-size: 150%;
+    margin-left: 20px;
+    width: 800px;
+}
+
+.image-profile{
+    margin-left: 150px;
+    border-radius: 70px;
+    width: 200px;
+}
+
+h2{
+    text-align: center;
+    background-color:rgba(159,214,253,255);
+    width: 200px;
+    margin-left: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+nav{
+    background-color:rgba(159,214,253,255);
+    width: 300px;
+    margin-left: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.secciones{
+    width: 10px;
+}
+
+.skills{
+    margin-left: 10px;
+}
+.contactos{
+    text-align: center;
+    background-color:rgba(251,141,212,255);
+    width: 800px;
+    border-radius: 30px;
+}

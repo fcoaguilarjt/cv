@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="style.css"> enlaza mi archivo de estilos  -->
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+3D&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Mi CV</title>
+</head>
+<body>
+    <!-- Hola soy un comentario -->
+    <!-- Cabecera -->
+    <header class="roboto-light">
+        <img src="foto.jpg" alt="Imagen de CV" class="image-profile">
+        <h1 class="nombre"> Ing. Francisco Aguilar</h1>
+    <p id="carrera">Ingeniero Mecatrónico</p>
+        <nav>
+        <!-- ul es unordered list o lista desordenada -->
+            <ul>
+            <!-- li es list item -->
+            <!-- Para poner varios elementos puedo poner el <li* y la cantidad> -->
+                <li><a href="#sobre-mi">Sobre mi</a></li>
+                <!-- target = blank es para abrir una nueva pestania al dar click en el enlace -->
+                <li><a href="#exp-laboral">Experiencia laboral</a></li>
+                <li><a href="#educacion">Historial academico</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mi</h2>
+            <p class="profile-description">Estoy en busca de darle una transición a mi carrera profesional, incursionando en el mundo del desarrollo. 
+Aspiro a adquirir nuevas habilidades y conocimientos para desempeñarme en este campo, a través de mi dedicación 
+y compromiso busco contribuir al crecimiento de la organización a la vez de crecer profesional y personalmente</p>
+        </section>
+        <section id="exp-laboral">
+            <h2 class="roboto-light">Experiencia Laboral</h2>
+            <article>
+            <ol>
+            <!-- creacion de una lista ordenada para poner el historial de empleos, todos en h3 -->
+                <li>
+                    <h3>Telcel 2011 - 2016</h3>
+                    <h4>Analista Técnico</h4>
+                    <ul>
+                        <li>Atención a clientes.</li>
+                        <li>Diagnostico, reparacion y gestion de garantias.</li>
+                        <li>Manejo de almacenes mediante SAP</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Provetecnia SA de CV 2017 - 2019</h3>
+                    <h4>Ingeniero de Servicio</h4>
+                    <ul>
+                        <li>Mantenimiento preventivo y correctivo a equipos de rayos X en instalaciones aeroportuarias.</li>
+                        <li>Atención a clientes,</li>
+                        <li>Presentacion de reportes.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>LG Electronics México 2019</h3>
+                    <h4>Coordinador de Centros de Servicio</h4>
+                    <ul>
+                        <li>Líder de un equipo de 100 técnicos y 5 supervisores.</li>
+                        <li> Medición de KPIs.</li>
+                        <li>Implementación de procesos.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Servicios Troncalizados 2020 - A la fecha</h3>
+                    <h4>Ingeniero de Garantias y Certificaciones</h4>
+                    <ul>
+                        <li>Tramite de garantías de equipo de infraestructura de red con proveedores internacionales.</li>
+                        <li>Auditor interno.</li>
+                        <li>Tramites de certificación y homologación de equipos ante NYCE e IFT para cumplimiento de NOMs y tramites
+                            aduanales</li>
+                    </ul>
+                </li>
+            </article>
+        </section>
+        <section id="educacion">
+            <h2>Historial académico</h2>
+            <h3 class="academico">Facultad de Ingeniería - UNAM</h3>
+            <p class="academico">Ing. Mecatrónica, 2006 - 2011</p>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul class="skills">
+                <li>Manejo de Git y GitHub. </li>
+                <li>Manejo de software de ofimática.</li>
+                <li>Autodidacta de fácil aprendizaje.</li>
+                <li>Adaptabilidad al cambio.</li>
+            </ul>
+        </section>
+        <footer>
+            <section id="contacto">
+            <h2>Contacto</h2>
+            <p class="contactos">
+            <a href="https://github.com/fcoaguilarjt/Dev.f"><img src="https://icones.pro/wp-content/uploads/2021/06/icone-github-violet.png" width="59">GitHub   </a>
+            <a href="https://www.linkedin.com/in/fcoaguilarjt/"><img src="https://static-00.iconduck.com/assets.00/linkedin-icon-1024x1024-net2o24e.png" width="55">LinkedIn   </a>
+            <a href="mailto:fcoaguilar.jt@gmail.com"><img src="https://cdn.iconscout.com/icon/free/png-256/free-gmail-2981844-2476484.png?f=webp" width="60">fcoaguilar.jt@gmail.com   </a>
+            </p>
+            </section>
+        </footer>
+    </main>
+</body>
+</html>
